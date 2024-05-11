@@ -1,13 +1,3 @@
-<div class="full-width" style="display: flex; justify-content: center; align-items: center; background-color: #f0f0f0; height: 40px; overflow: auto; position: fixed; top: 0; width: 100%;">
-<div class="link" style="text-align: center;">
-    <a href="https://www.example.com" class="link" style="color: #333; font-size: 0.7em;">Crystal Clear Building Services</a>
-</div>
-</div>
-
-<div style="height: 50px;">
-<!-- This is a spacer div -->
-</div>
-
 # Clean my building 
 
 ---
@@ -37,9 +27,9 @@ Anyone can clean a building. We preserve and protect your work environment. Crys
 </div>
 <div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: 0px; background-color: #f0f0f0; height: 200px; overflow: auto;">
   <div style="display: flex; justify-content: space-around; align-items: center; width: 80%;">
-    <img src="http://localhost:8000/ppg.png" alt="PPG Logo" style="width: 120px; height: auto; filter: brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
-    <img src="http://localhost:8000/cc.svg" alt="Cleveland Clinic Logo" style="width: 250px; height: auto; filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
-    <img src="http://localhost:8000/osu.png" alt="Ohio State Logo" style="width: 130px; height: auto; filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
+    <img src="http://localhost:8000/docs/ppg.png" alt="PPG Logo" style="width: 120px; height: auto; filter: brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
+    <img src="http://localhost:8000/docs/cc.svg" alt="Cleveland Clinic Logo" style="width: 250px; height: auto; filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
+    <img src="http://localhost:8000/docs/osu.png" alt="Ohio State Logo" style="width: 130px; height: auto; filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
   </div>
 </div>
 
