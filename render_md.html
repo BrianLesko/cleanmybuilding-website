@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- By Brian Lesko on 4/8/24 -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>
+     Internal Resources
+    </title>
+    <style type="text/css">
+     body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:010px}h1,h2,h3{line-height:1.2}
+     h1, h2, h3 { line-height: 1.2; }
+     #back-to-top {position: fixed;bottom: 20px;left: 50%;transform: translateX(-50%);padding: 10px 20px;background-color: #444;color: white;border: none;border-radius: 5px;cursor: pointer;display: none;}
+     #back-to-top:hover {background-color: #666;}
+    </style>
+   </head>
+<body>
+  <div id="content"></div>
+  <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    // Path to the external Markdown file
+    const markdownFilePath = 'http://localhost:8000/homepage.md';
+    
+    // Function to fetch the file content and render it with Marked.js
+    async function loadMarkdown() {
+      try {
+        const response = await fetch(markdownFilePath);
+        const markdownContent = await response.text();
+        document.getElementById('content').innerHTML = marked.parse(markdownContent);
+      } catch (error) {
+        console.error('Error loading Markdown file:', error);
+      }
+    }
+
+    // Load the Markdown content when the page is ready
+    loadMarkdown();
+
+    // Show or hide "Back to Top" button based on scroll position
+    window.onscroll = function() {
+        const button = document.getElementById('back-to-top');
+        if (document.documentElement.scrollTop > 100) {
+          button.style.display = 'block';
+        } else {
+          button.style.display = 'none';
+        }
+    };
+  </script>
+</body>
+</html>
