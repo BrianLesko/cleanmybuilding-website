@@ -1,8 +1,8 @@
-# Clean my building 
+# Our Services 
 
 ---
 
-<div style="display: flex; height: 320px;"><div style="flex: 80%; padding-left: 0px; line-height: 1.2;">
+<div style="display: flex;"><div style="flex: 80%; padding-left: 0px; line-height: 1.2; padding-bottom: 10px; padding-top: 20px;">
 
 **About**  
 Anyone can clean a building. We preserve and protect your work environment. Crystal Clear Building Services, Inc. is much more than a commercial cleaning service. We are a total facility maintenance and cleaning company. Our unique combination of cleaning, grounds maintenance, consulting, and equipment and janitorial supplies create a total preservation package that provides the ultimate clean. And cleaner facilities result in healthier, safer, more productive environments that protect and extend the life of your assets.
@@ -10,12 +10,12 @@ Anyone can clean a building. We preserve and protect your work environment. Crys
 </div><div style="flex: 50%; padding-left: 50px;">
 
 **Jump to**  
-[Facility Maintenance](#1)  
-[Cleaning Services](#2)  
-[Construction Cleaning](#3)   
-[Go Green](#4)  
-[Janitorial Supplies](#5)  
-[Contact us](#7) 
+<a href="#1" class="jump-to">Facility Maintenance</a>  
+<a href="#2" class="jump-to">Cleaning Services</a>  
+<a href="#3" class="jump-to">Construction Cleaning</a>   
+<a href="#4" class="jump-to">Go Green</a>  
+<a href="#5" class="jump-to">Janitorial Supplies</a>  
+<a href="#7" class="jump-to">Contact us</a>
 
 </div></div>
 
@@ -23,22 +23,24 @@ Anyone can clean a building. We preserve and protect your work environment. Crys
 
   ## Trusted by <a id="6"></a>
 </div>
-<div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 10px; background-color: #f0f0f0; height: 20px; overflow: auto; margin-bottom: 10px;">
+<div class="full-width-grey-bg" style="height: 20px; margin-bottom: 10px; margin-top: 10px;">
 </div>
-<div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 0px; margin-bottom: 0px; background-color: #f0f0f0; height: 200px; overflow: auto;">
+<div class="full-width-grey-bg" style="height: 200px;">
   <div style="display: flex; justify-content: space-around; align-items: center; width: 80%;">
-    <img src="http://localhost:8000/docs/ppg.png" alt="PPG Logo" style="width: 120px; height: auto; filter: brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
-    <img src="http://localhost:8000/docs/cc.svg" alt="Cleveland Clinic Logo" style="width: 250px; height: auto; filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
-    <img src="http://localhost:8000/docs/osu.png" alt="Ohio State Logo" style="width: 130px; height: auto; filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);">
-  </div>
+    <img class="logo-style" src="/docs/ppg.svg" alt="PPG Logo" style="width: 100px;">
+    <img class="logo-style" src="/docs/cc.svg" alt="Cleveland Clinic Logo" style="width: 200px;">
+    <img class="logo-style" src="/docs/osu.png" alt="Ohio State Logo" style="width: 100px;">
 </div>
-
-<div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 10px; background-color: #f0f0f0; height: 20px; overflow: auto; margin-bottom: 80px;">
 </div>
-
+</div>
 <a id="1"></a>
+<div class="full-width-grey-bg" style="height: 20px; margin-bottom: 20px; margin-top: 10px;">
+</div>
+
+<br />
 
 ## Facility Maintenance
+
 ---
 
 - [Window washing](http://cleanmybuilding/timeoff/)
@@ -46,17 +48,15 @@ Anyone can clean a building. We preserve and protect your work environment. Crys
 - [Water Damage cleanup]()
 - [Industrial cleaning]()
 - [Air duct cleaning]()
-
-<div class="full-width" style="margin-bottom: 60px;"></div>
-
 <a id="2"></a>
+<div class="full-width" style="margin-bottom: 60px;"></div>
 
 ## Cleaning Services
 ---
 
-<div style="display: flex; height: 170px;"><div style="flex: 80%; padding-left: 0px; line-height: 1.2;">
+<div style="display: flex;"><div style="flex: 80%; padding-left: 0px; line-height: 1.2; padding-bottom: 10px; padding-top: 20px;">
 
-At Crystal Clear Building Services, we offer tailored solutions for schools, hospitals, offices, and laboratories. Our services extend beyond daily janitorial duties to include deep carpet cleaning, tile restoration, and upholstery maintenance, ensuring your space remains welcoming for everyone.
+We offer tailored solutions for schools, hospitals, offices, and laboratories. Our services extend beyond daily janitorial duties to include deep carpet cleaning, tile restoration, and upholstery maintenance, ensuring your space remains welcoming for everyone.
 </div>
 
 <div style="flex: 50%; padding-left: 50px;">
@@ -66,17 +66,15 @@ At Crystal Clear Building Services, we offer tailored solutions for schools, hos
 - [Tile and hard surface]()
 - [Upholstry]()
 </div></div>
-<div class="full-width" style="margin-bottom: 60px;"></div>
-
 <a id="3"></a>
+<div class="full-width" style="margin-bottom: 60px;"></div>
 
 ## Construction cleaning
 ---
 
 We have clean construction sites for hospitals, schools, and offices. Learn more about our expertise in construction cleanup [here]().
-
 <a id="4"></a>
-<div style = "margin-top: 40px;">
+<div class="full-width" style="margin-bottom: 60px;"></div>
 
 <div class="full-width" style="margin-bottom: 60px;"></div>
 
@@ -84,17 +82,17 @@ We have clean construction sites for hospitals, schools, and offices. Learn more
 
 ---
 
-<div style="display: flex; height: 500px; margin-top: 20px; padding-bottom: 20px;">
+<div style="display: flex; margin-top: 20px; padding-bottom: 20px; padding-top: 20px;">
   <div style="flex: 60%; padding-left: 0px; line-height: 1.2; display: flex; justify-content: center; align-items: center;">
-    <img src="http://localhost:8000/leafs.jpg" alt="Alt text" style="width: 85%; height: auto; border-radius: 12px;">
+    <img src="/docs/leaves.jpg" alt="Alt text" style="width: 85%; height: auto; border-radius: 12px;">
   </div>
-  <div style="flex: 40%; padding-left: 75px; display: flex; align-items: center;">
-    We use eco-friendly products and green cleaning methods that reduce environmental impact without compromising on quality. Choose us for a spotless space that’s as green as it is clean.
-    View our procedures that make us one of the leading innovators in green cleaning here.
+  <div style="flex: 40%; padding-left: 20px; padding-right: 20px; display: flex; align-items: center;">
+    We use eco-friendly products and green cleaning methods that reduce environmental impact without compromising on quality. 
   </div>
 </div>
 
 <a id="5"></a>
+<div class="full-width" style="margin-bottom: 60px;"></div>
 
 ## Janitorial supplies
 ---
@@ -105,7 +103,7 @@ View our catalogue of products [here]().
 
 </div>
 
-<div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 10px; background-color: #f0f0f0; height: 20px; overflow: auto; margin-bottom: 10px;">
+<div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 10px; background-color: #f0f0f0; height: 20px; margin-bottom: 10px;">
   <!-- -->
 </div>
 

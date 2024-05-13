@@ -1,18 +1,20 @@
-// Path to the external Markdown file
-const markdownFilePath = 'http://localhost:8000/homepage.md';
-
 // Function to fetch the file content and render it with Marked.js
 async function loadMarkdown() {
   try {
-    const response = await fetch(markdownFilePath);
-    const markdownContent = await response.text();
-    document.getElementById('content').innerHTML = marked.parse(markdownContent);
+    const response = await fetch('/homepage.md');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const text = await response.text();
+    const html = marked.parse(text);  // Update this line
+    document.getElementById('content').innerHTML = html;
   } catch (error) {
     console.error('Error loading Markdown file:', error);
   }
 }
 
-// Load the Markdown content when the page is ready
+
+// Call the function to load and render the Markdown
 loadMarkdown();
 
 // Show or hide "Back to Top" button based on scroll position
@@ -24,3 +26,4 @@ window.onscroll = function() {
       button.style.display = 'none';
     }
 };
+
