@@ -1,29 +1,37 @@
 // Function to fetch the file content and render it with Marked.js
-async function loadMarkdown() {
+async function loadMarkdown(markdownFilePath) {
   try {
-    const response = await fetch('/homepage.md');
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const text = await response.text();
-    const html = marked.parse(text);  // Update this line
-    document.getElementById('content').innerHTML = html;
+    const response = await fetch(markdownFilePath);
+    const markdownContent = await response.text();
+    document.getElementById('content').innerHTML = marked.parse(markdownContent);
   } catch (error) {
     console.error('Error loading Markdown file:', error);
   }
 }
 
+// Function to load the Markdown file corresponding to the current hash
+function loadMarkdownForHash() {
+  const hash = location.hash.slice(1);
+  if (hash.startsWith('file-')) {
+    const markdownFilePath = `/${hash.slice(5)}.md`;
+    loadMarkdown(markdownFilePath);
+  } else if (hash === '') {
+    loadMarkdown('/homepage.md');
+  }
+}
 
-// Call the function to load and render the Markdown
-loadMarkdown();
+// Load the Markdown content when the page is ready
+loadMarkdownForHash();
+
+// Update the Markdown content when the hash changes
+window.addEventListener('hashchange', loadMarkdownForHash);
 
 // Show or hide "Back to Top" button based on scroll position
 window.onscroll = function() {
-    const button = document.getElementById('back-to-top');
-    if (document.documentElement.scrollTop > 100) {
-      button.style.display = 'block';
-    } else {
-      button.style.display = 'none';
-    }
+  const button = document.getElementById('back-to-top');
+  if (document.documentElement.scrollTop > 100) {
+    button.style.display = 'block';
+  } else {
+    button.style.display = 'none';
+  }
 };
-
