@@ -4,6 +4,8 @@ async function loadMarkdown(markdownFilePath) {
     const response = await fetch(markdownFilePath);
     const markdownContent = await response.text();
     document.getElementById('content').innerHTML = marked.parse(markdownContent);
+    // Set scroll position to the top of the page after content is loaded
+    window.scrollTo(0, 0);
   } catch (error) {
     console.error('Error loading Markdown file:', error);
   }
