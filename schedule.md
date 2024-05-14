@@ -63,44 +63,44 @@
 }
 </style>
 
-<div style="padding-top: 15px;"></div>
-
 **We just need a few details:**
 
-<div style="padding-top: 15px;"></div>
-<div style="display: flex;">
-    <div style="flex: 60%; padding-left: 0px;">
-        <div class="input-container">
-            <input type="text" id="name" name="name" class="styled-input" required>
-            <label for="name" class="input-label">Name</label>
+<form action="https://formsubmit.co/contactus@cleanmybuilding.co" method="post" enctype="text/plain">
+    <div style="padding-top: 15px;"></div>
+    <div style="padding-top: 15px;"></div>
+    <div style="display: flex;">
+        <div style="flex: 60%; padding-left: 0px;">
+            <div class="input-container">
+                <input type="text" id="name" name="name" class="styled-input" required>
+                <label for="name" class="input-label">Name</label>
+            </div>
+        </div>
+        <div style="flex: 50%; padding-left: 15px;">
+            <div class="input-container">
+                <input type="text" id="company" name="company" class="styled-input" required>
+                <label for="company" class="input-label">Company</label>
+            </div>
         </div>
     </div>
-    <div style="flex: 50%; padding-left: 15px;">
-        <div class="input-container">
-            <input type="text" id="company" name="company" class="styled-input" required>
-            <label for="company" class="input-label">Company</label>
+    <div style="display: flex;">
+        <div style="flex: 40%; padding-left: 0px;">
+            <div class="input-container">
+                <input type="tel" id="phone" name="phone" class="styled-input" required>
+                <label for="phone" class="input-label">Phone</label>
+            </div>
+        </div>
+        <div style="flex: 50%; padding-left: 15px;">
+            <div class="input-container">
+                <input type="email" id="email" name="email" class="styled-input" required>
+                <label for="email" class="input-label">Email</label>
+            </div>
         </div>
     </div>
-</div>
-<div style="display: flex;">
-    <div style="flex: 40%; padding-left: 0px;">
-        <div class="input-container">
-            <input type="tel" id="phone" name="phone" class="styled-input" required>
-            <label for="phone" class="input-label">Phone</label>
-        </div>
+    <div class="input-container">
+        <input type="text" id="availability" name="availability" class="styled-input" required>
+        <label for="availability" class="input-label">Availability</label>
     </div>
-    <div style="flex: 50%; padding-left: 15px;">
-        <div class="input-container">
-            <input type="email" id="email" name="email" class="styled-input" required>
-            <label for="email" class="input-label">Email</label>
-        </div>
+    <div id="button-container" style="padding-top: 40px; padding-bottom: 300px;">
+        <button type="submit" class="submit-button" id="submit-button">Submit</button>
     </div>
-</div>
-<div class="input-container">
-    <input type="text" id="availability" name="availability" class="styled-input" required>
-    <label for="availability" class="input-label">Availability</label>
-</div>
-
-<div id="button-container" style="padding-top: 40px; padding-bottom: 300px;">
-    <button type="button" class="submit-button" id="submit-button">Submit</button>
-</div>
+</form>
