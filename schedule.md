@@ -65,7 +65,7 @@
 
 **We just need a few details:**
 
-<form action="https://formsubmit.co/contactus@cleanmybuilding.co" method="post" enctype="text/plain">
+<form action="https://formsubmit.co/7dda0715e6ff9af6994fe982d887c530" method="POST">
     <div style="padding-top: 15px;"></div>
     <div style="padding-top: 15px;"></div>
     <div style="display: flex;">
