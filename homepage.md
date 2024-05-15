@@ -7,7 +7,7 @@
 **About**  
 Anyone can clean a building. We preserve and protect your work environment. Crystal Clear Building Services, Inc. is much more than a commercial cleaning service. We are a total facility maintenance and cleaning company. Our unique combination of cleaning, grounds maintenance, consulting, and equipment and janitorial supplies create a total preservation package that provides the ultimate clean. And cleaner facilities result in healthier, safer, more productive environments that protect and extend the life of your assets.
 
-</div><div style="flex: 50%; padding-left: 50px;">
+</div><div style="flex: 50%; padding-left: 50px; padding-top: 20px;">
 
 **Jump to**  
 <a href="#1" class="jump-to">Facility Maintenance</a>  
