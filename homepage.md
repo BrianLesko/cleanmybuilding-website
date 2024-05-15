@@ -42,11 +42,11 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 
 ---
 
-- [Window washing](http://cleanmybuilding/timeoff/)
-- [Pressure washing](http://cleanmybuilding/timeoff/calendar/)
-- [Water Damage cleanup]()
-- [Industrial cleaning]()
-- [Air duct cleaning]()
+- Window washing
+- Pressure washing
+- Water Damage cleanup
+- Industrial cleaning
+- Air duct cleaning
 <a id="2"></a>
 <div class="full-width" style="margin-bottom: 50px;"></div>
 
@@ -60,10 +60,10 @@ We offer tailored solutions for schools, hospitals, offices, and laboratories. O
 
 <div style="flex: 50%; padding-left: 50px;">
 
-- [Janitorial](http://cleanmybuilding/timeoff/)
-- [Carpet](http://cleanmybuilding/timeoff/calendar/)
-- [Tile and hard surface]()
-- [Upholstry]()
+- Janitorial
+- Carpet
+- Tile and hard surface
+- Upholstry
 </div></div>
 <a id="3"></a>
 <div class="full-width" style="margin-bottom: 50px;"></div>
@@ -82,7 +82,7 @@ We have clean construction sites for hospitals, schools, and offices. Learn more
 ---
 
 <div style="display: flex; margin-top: 20px; padding-bottom: 20px; padding-top: 20px;">
-  <div style="flex: 60%; padding-left: 0px; line-height: 1.2; display: flex; justify-content: center; align-items: center;">
+  <div style="flex: 60%; padding-left: 0px; line-height: 1.35; display: flex; justify-content: center; align-items: center;">
     <img src="/docs/leaves.jpg" alt="Alt text" style="width: 85%; height: auto; border-radius: 12px;">
   </div>
   <div style="flex: 40%; padding-left: 20px; padding-right: 20px; display: flex; align-items: center;">
