@@ -13,8 +13,7 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 <a href="#1" class="jump-to">Facility Maintenance</a>  
 <a href="#2" class="jump-to">Cleaning Services</a>  
 <a href="#3" class="jump-to">Construction Cleaning</a>   
-<a href="#4" class="jump-to">Go Green</a>  
-<a href="#5" class="jump-to">Janitorial Supplies</a>  
+<a href="#4" class="jump-to">Go Green</a>   
 <a href="#7" class="jump-to">Contact us</a>
 
 </div></div>
