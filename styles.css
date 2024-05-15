@@ -61,7 +61,7 @@ a.link:hover {
 }
 
 button.audit-button, a.link {
-    font-family: Arial, sans-serif;
+    font-family: inherit;
     font-size: 1em;
 }
 
