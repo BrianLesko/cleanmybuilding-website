@@ -9,7 +9,9 @@ body {
 }
 
 h1, h2, h3 {
+    font-family: 'Futura', sans-serif;
     line-height: 1.2;
+    font-weight: 300; /* font thickness */
 }
 
 #back-to-top {
