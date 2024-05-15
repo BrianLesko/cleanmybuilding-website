@@ -145,7 +145,7 @@ body {
 .jump-to {
     margin-left: 0px;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: inherit;
     color: rgb(41, 41, 41);
     transition: text-decoration 0.3s ease;
     line-height: 2; /* Adjust this value to increase or decrease line spacing */
