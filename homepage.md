@@ -7,7 +7,7 @@
 **About**  
 Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning by offering comprehensive facility maintenance, including expert cleaning, grounds maintenance, and consulting. Our holistic approach ensures cleaner, safer, and more productive work environments that protect and extend the life of your assets.
 
-</div><div style="flex: 50%; padding-left: 50px; padding-top: 20px;">
+</div><div style="flex: 50%; padding-left: 55px; padding-top: 20px;">
 
 **Jump to**  
 <a href="#1" class="jump-to">Facility Maintenance</a>  
@@ -48,7 +48,7 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 - [Industrial cleaning]()
 - [Air duct cleaning]()
 <a id="2"></a>
-<div class="full-width" style="margin-bottom: 60px;"></div>
+<div class="full-width" style="margin-bottom: 50px;"></div>
 
 ## Cleaning Services
 ---
@@ -66,7 +66,7 @@ We offer tailored solutions for schools, hospitals, offices, and laboratories. O
 - [Upholstry]()
 </div></div>
 <a id="3"></a>
-<div class="full-width" style="margin-bottom: 60px;"></div>
+<div class="full-width" style="margin-bottom: 50px;"></div>
 
 ## Construction cleaning
 ---
@@ -91,7 +91,7 @@ We have clean construction sites for hospitals, schools, and offices. Learn more
 </div>
 
 <a id="5"></a>
-<div class="full-width" style="margin-bottom: 60px;"></div>
+<div class="full-width" style="margin-bottom: 50px;"></div>
 
 ## Janitorial supplies
 ---
