@@ -2,7 +2,7 @@
 
 ---
 
-<div style="display: flex;"><div style="flex: 80%; padding-left: 0px; line-height: 1.3; padding-bottom: 10px; padding-top: 20px;">
+<div style="display: flex;"><div style="flex: 80%; padding-left: 0px; line-height: 1.35; padding-bottom: 10px; padding-top: 20px;">
 
 **About**  
 Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning by offering comprehensive facility maintenance, including expert cleaning, grounds maintenance, and consulting. Our holistic approach ensures cleaner, safer, and more productive work environments that protect and extend the life of your assets.
