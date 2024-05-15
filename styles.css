@@ -6,12 +6,13 @@ body {
     color: #444;
     padding: 0 10px;
     font-family: 'Futura', sans-serif;
+    font-weight: 200; /* font thickness */
 }
 
 h1, h2, h3 {
     font-family: 'Futura', sans-serif;
     line-height: 1.2;
-    font-weight: 300; /* font thickness */
+    font-weight: 200; /* font thickness */
 }
 
 #back-to-top {
