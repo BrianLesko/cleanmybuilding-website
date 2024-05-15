@@ -58,7 +58,7 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 We offer tailored solutions for schools, hospitals, offices, and laboratories. Our services extend beyond daily janitorial duties to include deep carpet cleaning, tile restoration, and upholstery maintenance, ensuring your space remains welcoming for everyone.
 </div>
 
-<div style="flex: 50%; padding-left: 50px;">
+<div style="flex: 50%; padding-left: 50px; padding-top: 20px;">
 
 - Janitorial
 - Carpet
