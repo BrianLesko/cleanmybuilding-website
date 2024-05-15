@@ -97,7 +97,7 @@ We have clean construction sites for hospitals, schools, and offices. Learn more
 ## Janitorial supplies
 ---
 
-View our catalogue of products [here]().
+Our catalogue of products will be available here soon.
 
 <div style = "margin-top: 100px;">
 
