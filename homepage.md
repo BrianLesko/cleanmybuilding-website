@@ -1,4 +1,8 @@
-# Our Services 
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <h1>Our Services</h1>
+    <img src="/docs/CCBS.png" alt="Your Alt Text" style="width: 200px;">
+</div>
 
 ---
 
@@ -14,6 +18,7 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 <a href="#2" class="jump-to">Cleaning Services</a>  
 <a href="#3" class="jump-to">Construction Cleaning</a>   
 <a href="#4" class="jump-to">Go Green</a>   
+<a href="#5" class="jump-to">Janitorial Supplies</a>  
 <a href="#7" class="jump-to">Contact us</a>
 
 </div></div>
@@ -28,7 +33,7 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
   <div style="display: flex; justify-content: space-around; align-items: center; width: 80%;">
     <img class="logo-style" src="/docs/PPG.svg" alt="PPG Logo" style="width: 100px;">
     <img class="logo-style" src="/docs/cc.svg" alt="Cleveland Clinic Logo" style="width: 200px;">
-    <img class="logo-style" src="/docs/osu.png" alt="Ohio State Logo" style="width: 100px;">
+    <img class="logo-style" src="/docs/osu.svg" alt="Ohio State Logo" style="width: 100px;">
 </div>
 </div>
 </div>
@@ -68,10 +73,10 @@ We offer tailored solutions for schools, hospitals, offices, and laboratories. O
 <a id="3"></a>
 <div class="full-width" style="margin-bottom: 50px;"></div>
 
-## Construction cleaning
+## Construction cleanup
 ---
 
-We have clean construction sites for hospitals, schools, and offices. We will add more content about our expertise in construction cleanup here soon.
+We have managed construction sites for hospitals, schools, and offices. With over 25 years of experience, no jobsite is too big a project for us to handle.
 <a id="4"></a>
 <div class="full-width" style="margin-bottom: 60px;"></div>
 

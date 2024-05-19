@@ -161,5 +161,6 @@ body {
 
 .logo-style {
     object-fit: contain;
-    filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(180deg) saturate(1000%) grayscale(100%);
+    padding-left: 10px;
+    padding-right: 10px;
 }
