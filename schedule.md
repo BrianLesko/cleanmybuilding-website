@@ -1,4 +1,4 @@
-# Schedule an Audit with Us
+# Schedule an Audit
 
 ---
 

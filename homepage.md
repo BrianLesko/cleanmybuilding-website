@@ -71,7 +71,7 @@ We offer tailored solutions for schools, hospitals, offices, and laboratories. O
 ## Construction cleaning
 ---
 
-We have clean construction sites for hospitals, schools, and offices. Learn more about our expertise in construction cleanup [here]().
+We have clean construction sites for hospitals, schools, and offices. We will add more content about our expertise in construction cleanup here soon.
 <a id="4"></a>
 <div class="full-width" style="margin-bottom: 60px;"></div>
 
