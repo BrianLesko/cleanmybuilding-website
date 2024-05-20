@@ -1,7 +1,7 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
     <h1>Our Services</h1>
-    <img src="/docs/CCBS.png" alt="Your Alt Text" style="width: 200px;">
+    <img src="/docs/CCBS.png" alt="Your Alt Text" style="width: 85px;">
 </div>
 
 ---
