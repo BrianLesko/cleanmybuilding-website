@@ -31,9 +31,9 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 </div>
 <div class="full-width-grey-bg" style="height: 200px;">
   <div style="display: flex; justify-content: space-around; align-items: center; width: 100%; max-width: 960px; margin: auto;">
-    <img class="logo-style" src="/docs/PPG.svg" alt="PPG Logo" style="width: 18%; max-width: 100px;">
-    <img class="logo-style" src="/docs/cc.svg" alt="Cleveland Clinic Logo" style="width: 40%; max-width: 200px;">
-    <img class="logo-style" src="/docs/osu.svg" alt="Ohio State Logo" style="width: 18%; max-width: 100px;">
+    <img class="logo-style" src="/docs/PPG.svg" alt="PPG Logo" style="width: 18%; max-width: 110px;">
+    <img class="logo-style" src="/docs/cc.svg" alt="Cleveland Clinic Logo" style="width: 40%; max-width: 220px;">
+    <img class="logo-style" src="/docs/osu.svg" alt="Ohio State Logo" style="width: 18%; max-width: 110px;">
 </div>
 </div>
 </div>
@@ -69,7 +69,7 @@ We offer tailored solutions for schools, hospitals, offices, and laboratories. O
 
 - Janitorial
 - Carpet
-- Tile and hard surface
+- Tile
 - Upholstry
 </div></div>
 <a id="3"></a>
