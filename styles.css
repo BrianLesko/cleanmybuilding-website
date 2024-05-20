@@ -159,25 +159,8 @@ body {
     color: #4eb952
 }
 
-.logo-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-  }
-  
-  .logo-style {
-    width: 100%;
-    max-width: 200px;
-  }
-  
-  @media (max-width: 600px) {
-    .logo-container {
-      flex-direction: column;
-    }
-  
-    .logo-style {
-      margin-bottom: 20px;
-    }
-  }
+.logo-style {
+    object-fit: contain;
+    padding-left: 10px;
+    padding-right: 10px;
+}
