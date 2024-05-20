@@ -31,10 +31,11 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 </div>
 <div class="full-width-grey-bg" style="height: 200px;">
   <div style="display: flex; justify-content: space-around; align-items: center; width: 100%; max-width: 960px; margin: auto;">
-    <img class="logo-style" src="/docs/PPG.svg" alt="PPG Logo" style="max-width: 100px; margin-left: 10px">
-    <img class="logo-style" src="/docs/cc.svg" alt="Cleveland Clinic Logo" style="max-width: 200px;">
-    <img class="logo-style" src="/docs/osu.svg" alt="Ohio State Logo" style="max-width: 100px; margin-right: 10px">
-  </div>
+    <img class="logo-style" src="/docs/PPG.svg" alt="PPG Logo" style="width: 30%; max-width: 100px;">
+    <img class="logo-style" src="/docs/cc.svg" alt="Cleveland Clinic Logo" style="width: 30%; max-width: 200px;">
+    <img class="logo-style" src="/docs/osu.svg" alt="Ohio State Logo" style="width: 30%; max-width: 100px;">
+</div>
+</div>
 </div>
 </div>
 </div>
