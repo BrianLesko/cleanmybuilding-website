@@ -1,7 +1,8 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
-    <h1>Our Services</h1>
-    <img src="/docs/CCBS.png" alt="Your Alt Text" style="width: 85px;">
+    <img src="/docs/CCBS.png" alt="Your Alt Text" style="width: 85px; flex: 0.2;">
+    <h1 style="text-align: center; flex: 1;">Our Services</h1>
+    <div style="flex: 0.2;"></div>
 </div>
 
 ---
@@ -23,11 +24,14 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 
 </div></div>
 
-<div style="text-align: center; margin-top: 80px;">
+<div style="text-align: center; margin-top: 80px; style: margin-right: 5%;">
 
   ## Trusted by <a id="6"></a>
 </div>
-<div class="full-width-grey-bg" style="height: 20px; margin-bottom: 10px; margin-top: 10px;">
+<div style="text-align: right; margin-top: 10px; margin-right: 5%;">
+  <img src="/docs/tiny_truck.png" alt="clean building truck" style="max-width: 150px; max-height: 100px;">
+</div>
+<div class="full-width-grey-bg" style="height: 20px; margin-bottom: 10px; margin-top: -10px;">
 </div>
 <div class="full-width-grey-bg" style="height: 200px;">
   <div style="display: flex; justify-content: space-around; align-items: center; width: 100%; max-width: 960px; margin: auto;">
