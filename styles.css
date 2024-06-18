@@ -51,6 +51,17 @@ h1, h2, h3 {
     background-color: #4eb952;
 }
 
+a.h2link {
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: inherit;
+    color: #adadad;
+    transition: text-decoration 0.3s ease;
+}
+a.h2link:hover {
+    text-decoration: underline;
+}
+
 a.link {
     margin-left: 20px;
     text-decoration: none;
@@ -58,7 +69,6 @@ a.link {
     color: #4CAF50;
     transition: text-decoration 0.3s ease;
 }
-
 a.link:hover {
     text-decoration: underline;
 }
@@ -132,7 +142,7 @@ body {
     position: relative;
     width: 100vw;
     left: 50%;
-    right: 50%;
+    right: 50%; 
     margin-left: -50vw;
     margin-right: -50vw;
 
