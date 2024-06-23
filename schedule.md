@@ -100,6 +100,7 @@
         <input type="text" id="availability" name="availability" class="styled-input" required>
         <label for="availability" class="input-label">Availability</label>
     </div>
+    <input type="hidden" name="_next" value="https://example.com/thank-you.html">
     <div id="button-container" style="padding-top: 40px; padding-bottom: 300px;">
         <button type="submit" class="submit-button" id="submit-button">Submit</button>
     </div>
