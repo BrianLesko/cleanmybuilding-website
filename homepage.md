@@ -110,11 +110,5 @@ We have managed construction sites for hospitals, schools, and offices. With ove
 Our catalogue of products will be available here soon.
 
 <div style = "margin-top: 100px;">
-
-</div>
-
-<div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 10px; background-color: #f0f0f0; height: 20px; margin-bottom: 10px;">
-  <!-- -->
-</div>
-
 <a id="7"></a>
+</div>
