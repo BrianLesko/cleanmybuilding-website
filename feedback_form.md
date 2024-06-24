@@ -7,7 +7,7 @@
     position: relative;
     width: 100%;
     height: 55px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 .input-container input:valid + .input-label,
 .input-container:focus-within .input-label {
@@ -73,15 +73,15 @@
 <form action="https://formsubmit.co/your-endpoint-here" method="POST">
     <div class="input-container">
         <input type="text" id="name" name="name" class="styled-input" required>
-        <label for="name" class="input-label">Your Name</label>
+        <label for="name" class="input-label">Name</label>
     </div>
     <div class="input-container">
         <input type="email" id="email" name="email" class="styled-input" required>
-        <label for="email" class="input-label">Your Email</label>
+        <label for="email" class="input-label">Email</label>
     </div>
     <div class="input-container">
         <textarea id="feedback" name="feedback" class="styled-input styled-textarea" required></textarea>
-        <label for="feedback" class="input-label">Your Feedback</label>
+        <label for="feedback" class="input-label">Feedback</label>
     </div>
     <input type="hidden" name="_next" value="https://yourthankyoupage.co">
     <input type="hidden" name="_subject" value="Feedback Submission">

@@ -1,6 +1,6 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
-    <img src="/docs/CCBS.png" alt="Your Alt Text" style="width: 85px; flex: 0.2;">
+    <img src="/docs/CCBS.png" alt="Clean My building Logo of a commercial building being managed and cleaned using our services" style="width: 85px; flex: 0.2;">
     <h1 style="text-align: center; flex: 1;">Our Services</h1>
     <div style="flex: 0.2;"></div>
 </div>
