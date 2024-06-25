@@ -103,9 +103,6 @@ We have managed construction sites for hospitals, schools, and offices. With ove
   </div>
 </div>
 
-<a id="5"></a>
-<div class="full-width" style="margin-bottom: 50px;"></div>
-
 <a id="7"></a>
 <div class="full-width" style="margin-bottom: 50px;"></div>
 
@@ -115,6 +112,8 @@ We have managed construction sites for hospitals, schools, and offices. With ove
 
 Are you interested in working at our company? <a href="#file-apply_form" class="link" style="font-size: 1em;">Learn more here.</a>
 
+<a id="5"></a>
+<div class="full-width" style="margin-bottom: 50px;"></div>
 
 ## Janitorial supplies
 ---
