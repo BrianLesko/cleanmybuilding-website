@@ -101,9 +101,9 @@
         </div>
     </div>
     <div class="input-container">
-                <input type="date" id="birthdate" name="birthdate" class="styled-input" required>
-                <label for="Birth Date" class="input-label">Birth Date</label>
-            </div>
+        <input type="date" id="birthdate" name="birthdate" class="styled-input" placeholder=" " required>
+        <label for="birthdate" class="input-label">Birth Date</label>
+    </div>
     <div class="input-container">
         <textarea id="impress_us" name="impress_us" class="styled-input styled-textarea" required></textarea>
         <label for="impress_us" class="input-label">Impress Us</label>
