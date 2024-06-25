@@ -1,11 +1,16 @@
-<!-- Job Application Feedback Form -->
-
 <style>
 .input-container {
     position: relative;
     width: 100%;
     height: 55px;
     margin-bottom: 20px;
+}
+.input-container input[type="date"] {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.input-container input[type="date"]:focus {
+    opacity: 1;
 }
 .input-container input:valid + .input-label,
 .input-container:focus-within .input-label {
@@ -65,6 +70,7 @@
     background-color: #4eb952;
 }
 </style>
+
 # Apply now
 ---
 **We just need a few details**
