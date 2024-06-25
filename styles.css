@@ -176,3 +176,25 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* Base styles for padding */
+body {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 480px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Ensure the header and footer also align with the body's padding */
+.full-width-grey-bg, .full-width, .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; /* Makes sure padding is included in width */
+}
+
