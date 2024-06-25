@@ -6,19 +6,6 @@
     margin-bottom: 20px;
 }
 .input-container input[type="date"] {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-.input-container input[type="date"]:focus {
-    opacity: 1;
-}
-.input-container input:valid + .input-label,
-.input-container:focus-within .input-label {
-    top: 10%;
-    font-size: 12px;
-}
-.styled-input,
-.styled-textarea {
     width: 100%;
     height: 100%;
     padding: 20px 20px 10px 20px;
@@ -30,9 +17,19 @@
     color: black;
     font-weight: 100;
 }
-.styled-textarea {
-    height: 150px;
-    resize: none;
+.input-container input[type="date"]::before {
+    content: attr(placeholder);
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    background-color: white;
+    color: transparent;
+    border-radius: 18px;
+}
+.input-container input[type="date"]:focus::before {
+    content: none; /* Remove the overlay when the input is focused */
 }
 .input-label {
     position: absolute;
@@ -71,6 +68,7 @@
 }
 </style>
 
+
 # Apply now
 ---
 **We just need a few details**
@@ -107,7 +105,7 @@
         </div>
     </div>
     <div class="input-container">
-        <input type="text" id="birthdate" name="birthdate" class="styled-input" placeholder="Birth Date" onfocus="this.type='date';" required>
+        <input type="date" id="birthdate" name="birthdate" class="styled-input" placeholder=" " required>
         <label for="birthdate" class="input-label">Birth Date</label>
     </div>
     <div class="input-container">
