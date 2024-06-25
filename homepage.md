@@ -10,17 +10,17 @@
 <div style="display: flex;"><div style="flex: 80%; padding-left: 0px; line-height: 1.35; padding-bottom: 10px; padding-top: 20px;">
 
 **About**  
-Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning by offering comprehensive facility maintenance, including expert cleaning, grounds maintenance, and consulting. Our holistic approach ensures cleaner, safer, and more productive work environments that protect and extend the life of your assets.
+We offer comprehensive facility maintenance. Go beyond cleanliness. Our holistic approach ensures a cleaner, safer, and more productive work environment that protects and extends the life of your assets.
 
 </div><div style="flex: 50%; padding-left: 55px; padding-top: 20px;">
 
 **Jump to**  
-<a href="#1" class="jump-to">Facility Maintenance</a>  
+<!-- <a href="#1" class="jump-to">Facility Maintenance</a>  
+<a href="#3" class="jump-to">Construction Cleaning</a>  -->
 <a href="#2" class="jump-to">Cleaning Services</a>  
-<a href="#3" class="jump-to">Construction Cleaning</a>   
 <a href="#4" class="jump-to">Go Green</a>   
-<a href="#5" class="jump-to">Janitorial Supplies</a>  
-<a href="#7" class="jump-to">Contact us</a>
+<!-- <a href="#5" class="jump-to">Janitorial Supplies</a>  
+<a href="#7" class="jump-to">Contact us</a> -->
 
 </div></div>
 
@@ -68,7 +68,7 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 
 <div style="display: flex;"><div style="flex: 80%; padding-left: 0px; line-height: 1.2; padding-bottom: 10px; padding-top: 20px;">
 
-We offer tailored solutions for schools, hospitals, offices, and laboratories. Our services extend beyond daily janitorial duties to include deep carpet cleaning, tile restoration, and upholstery maintenance, ensuring your space remains welcoming for everyone.
+We tailor solutions for schools, hospitals, offices, and laboratories. Keep your space feeling new. Let us take care of daily janitorial duties and seasonal work.
 </div>
 
 <div style="flex: 50%; padding-left: 50px; padding-top: 20px;">
@@ -99,7 +99,7 @@ We have managed construction sites for hospitals, schools, and offices. With ove
     <img src="/docs/leaves.jpg" alt="Alt text" style="width: 85%; height: auto; border-radius: 12px;">
   </div>
   <div style="flex: 40%; padding-left: 20px; padding-right: 20px; display: flex; align-items: center;">
-    We use eco-friendly products and green cleaning methods that reduce environmental impact without compromising on quality. 
+    We use eco-friendly products. Help us reduce environmental impact without compromising on quality. 
   </div>
 </div>
 
