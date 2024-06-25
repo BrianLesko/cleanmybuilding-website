@@ -1,4 +1,4 @@
-<!-- Leave Feedback Form -->
+<!-- Job Application Feedback Form -->
 
 <style>
 .input-container {
@@ -65,9 +65,9 @@
     background-color: #4eb952;
 }
 </style>
-# Leave us Feedback
+# Apply now
 ---
-**We appreciate your input**
+**We just need a few details**
 
 
 
@@ -82,13 +82,13 @@
         <label for="email" class="input-label">Email</label>
     </div>
     <div class="input-container">
-        <textarea id="feedback" name="feedback" class="styled-input styled-textarea" required></textarea>
-        <label for="feedback" class="input-label">Feedback</label>
+        <textarea id="impress_us" name="impress_us" class="styled-input styled-textarea" required></textarea>
+        <label for="impress_us" class="input-label">Impress Us</label>
     </div>
     <input type="hidden" name="_next" value="https://cleanmybuilding.co/#file-thank_you">
-    <input type="hidden" name="_subject" value="Feedback Submission">
+    <input type="hidden" name="_subject" value="Application Received">
     <input type="hidden" name="_cc" value="info@crystalclearBuildingServices.com">
-    <input type="hidden" name="_autoresponse" value="Thank you for your feedback. We value every input we receive.">
+    <input type="hidden" name="_autoresponse" value="Thank you for applying, we'll be in touch soon.">
     <div style="height: 80px;"></div> <!-- This creates a 50px height gap -->
     <div id="button-container" style="padding-top: 40px; padding-bottom: 200px;">
         <button type="submit" class="submit-button" id="submit-button">Submit</button>

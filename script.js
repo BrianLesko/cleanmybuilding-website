@@ -2,35 +2,28 @@
 async function loadMarkdown(markdownFilePath) {
   try {
     const response = await fetch(markdownFilePath);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
     const markdownContent = await response.text();
     document.getElementById('content').innerHTML = marked.parse(markdownContent);
-    // Set scroll position to the top of the page after content is loaded
-    window.scrollTo(0, 0);
   } catch (error) {
     console.error('Error loading Markdown file:', error);
-    document.getElementById('content').innerHTML = `<p>Error loading content.</p>`;
   }
 }
 
 // Function to load the Markdown file corresponding to the current hash
 function loadMarkdownForHash() {
-  let hash = window.location.hash.slice(1); // Get the current hash and remove the leading '#'
-  if (!hash || !hash.startsWith('file-')) {
-    // If no hash or hash does not start with 'file-', set to the homepage and reload the hash
-    window.location.hash = 'file-homepage';
-  } else {
+  const hash = location.hash.slice(1);
+  if (hash.startsWith('file-')) {
     const markdownFilePath = `/${hash.slice(5)}.md`;
     loadMarkdown(markdownFilePath);
+  } else if (hash === '') {
+    loadMarkdown('./homepage.md');
   }
 }
 
-// Ensure the Markdown content is loaded correctly when the page loads
-document.addEventListener("DOMContentLoaded", loadMarkdownForHash);
+// Load the Markdown content when the page is ready
+loadMarkdownForHash();
 
-// Handle any hash changes
+// Update the Markdown content when the hash changes
 window.addEventListener('hashchange', loadMarkdownForHash);
 
 // Show or hide "Back to Top" button based on scroll position
