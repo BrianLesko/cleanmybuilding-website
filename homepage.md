@@ -48,16 +48,6 @@ Crystal Clear Building Services, Inc. goes beyond standard commercial cleaning b
 
 <br />
 
-<a id="7"></a>
-<div class="full-width" style="margin-bottom: 50px;"></div>
-
-## Apply
-
----
-
-Are you interested in working at our company: <a href="#file-apply_form" class="link" style="font-size: 1em;">Learn more here.</a>
-
-
 <a id="1"></a>
 <div class="full-width" style="margin-bottom: 50px;"></div>
 
@@ -115,6 +105,16 @@ We have managed construction sites for hospitals, schools, and offices. With ove
 
 <a id="5"></a>
 <div class="full-width" style="margin-bottom: 50px;"></div>
+
+<a id="7"></a>
+<div class="full-width" style="margin-bottom: 50px;"></div>
+
+## Apply
+
+---
+
+Are you interested in working at our company? <a href="#file-apply_form" class="link" style="font-size: 1em;">Learn more here.</a>
+
 
 ## Janitorial supplies
 ---

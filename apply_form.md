@@ -72,15 +72,38 @@
 
 
 <form action="https://formsubmit.co/7dda0715e6ff9af6994fe982d887c530" method="POST">
-    <div style="padding-top: 15px;"></div>
-    <div class="input-container">
-        <input type="text" id="name" name="name" class="styled-input" required>
-        <label for="name" class="input-label">Name</label>
+    <div style="display: flex;">
+        <div style="flex: 60%; padding-left: 0px;">
+            <div class="input-container">
+                <input type="text" id="name" name="name" class="styled-input" required>
+                <label for="name" class="input-label">First Name</label>
+            </div>
+        </div>
+        <div style="flex: 50%; padding-left: 15px;">
+            <div class="input-container">
+                <input type="text" id="company" name="company" class="styled-input" required>
+                <label for="company" class="input-label">Last Name</label>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div style="flex: 40%; padding-left: 0px;">
+            <div class="input-container">
+                <input type="tel" id="phone" name="phone" class="styled-input" required>
+                <label for="phone" class="input-label">Phone</label>
+            </div>
+        </div>
+        <div style="flex: 50%; padding-left: 15px;">
+            <div class="input-container">
+                <input type="email" id="email" name="email" class="styled-input" required>
+                <label for="email" class="input-label">Email</label>
+            </div>
+        </div>
     </div>
     <div class="input-container">
-        <input type="email" id="email" name="email" class="styled-input" required>
-        <label for="email" class="input-label">Email</label>
-    </div>
+                <input type="date" id="birthdate" name="birthdate" class="styled-input" required>
+                <label for="Birth Date" class="input-label">Birth Date</label>
+            </div>
     <div class="input-container">
         <textarea id="impress_us" name="impress_us" class="styled-input styled-textarea" required></textarea>
         <label for="impress_us" class="input-label">Impress Us</label>
