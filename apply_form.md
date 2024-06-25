@@ -8,6 +8,7 @@
     margin-bottom: 20px;
 }
 .input-container input:valid + .input-label,
+.input-container input:not(:placeholder-shown) + .input-label,
 .input-container:focus-within .input-label {
     top: 10%;
     font-size: 12px;
@@ -32,11 +33,12 @@
 .input-label {
     position: absolute;
     left: 20px;
-    top: 30%;
-    transform: translateY(-10%);
+    top: 50%; /* Center label by default */
+    transform: translateY(-50%);
     transition: 0.2s ease;
     font-family: Arial, sans-serif;
     font-weight: 100;
+    pointer-events: none; /* Ensures the label doesn't block input interaction */
 }
 .input-container:focus-within .input-label {
     top: 10%;
@@ -65,6 +67,7 @@
     background-color: #4eb952;
 }
 </style>
+
 # Apply now
 ---
 **We just need a few details**
