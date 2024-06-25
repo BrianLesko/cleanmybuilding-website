@@ -101,7 +101,7 @@
         </div>
     </div>
     <div class="input-container">
-        <input type="text" id="birthdate" name="birthdate" class="styled-input" placeholder="Birth Date" onfocus="this.type='date';" required>
+        <input type="text" id="birthdate" name="birthdate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
         <label for="birthdate" class="input-label">Birth Date</label>
     </div>
     <div class="input-container">
