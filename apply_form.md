@@ -1,3 +1,5 @@
+<!-- Job Application Feedback Form -->
+
 <style>
 .input-container {
     position: relative;
@@ -5,7 +7,13 @@
     height: 55px;
     margin-bottom: 20px;
 }
-.input-container input[type="date"] {
+.input-container input:valid + .input-label,
+.input-container:focus-within .input-label {
+    top: 10%;
+    font-size: 12px;
+}
+.styled-input,
+.styled-textarea {
     width: 100%;
     height: 100%;
     padding: 20px 20px 10px 20px;
@@ -17,19 +25,9 @@
     color: black;
     font-weight: 100;
 }
-.input-container input[type="date"]::before {
-    content: attr(placeholder);
-    position: absolute;
-    top: 0;
-    left: 20px;
-    right: 20px;
-    bottom: 0;
-    background-color: white;
-    color: transparent;
-    border-radius: 18px;
-}
-.input-container input[type="date"]:focus::before {
-    content: none; /* Remove the overlay when the input is focused */
+.styled-textarea {
+    height: 150px;
+    resize: none;
 }
 .input-label {
     position: absolute;
@@ -67,8 +65,6 @@
     background-color: #4eb952;
 }
 </style>
-
-
 # Apply now
 ---
 **We just need a few details**
@@ -105,7 +101,7 @@
         </div>
     </div>
     <div class="input-container">
-        <input type="date" id="birthdate" name="birthdate" class="styled-input" placeholder=" " required>
+        <input type="text" id="birthdate" name="birthdate" class="styled-input" placeholder="Birth Date" onfocus="this.type='date';" required>
         <label for="birthdate" class="input-label">Birth Date</label>
     </div>
     <div class="input-container">
