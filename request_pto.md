@@ -1,6 +1,28 @@
-# Get a Quote
+<!-- Request PTO Form -->
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <img src="/docs/CCBS.png" alt="Clean My building Logo of a commercial building being managed and cleaned using our services" style="width: 85px; flex: 0.2;">
+    <h1 style="text-align: center; flex: 1;">Request PTO 🌴</h1>
+    <div style="flex: 0.2;"></div>
+</div>
 
 ---
+**We just need a few details**
+
+<script>
+fetch('https://example.com', {
+    method: 'GET',
+    mode: 'cors',
+})
+.then(response => {
+    const contentType = response.headers.get('Content-Type');
+    const date = response.headers.get('Date');
+
+    // Assuming you have an input field with id 'name'
+    document.getElementById('name').value = `Content-Type: ${contentType}, Date: ${date}`;
+})
+.catch(error => console.error('Error:', error));
+</script>
 
 <style>
 .input-container {
@@ -14,7 +36,8 @@
     top: 10%;
     font-size: 12px;
 }
-.styled-input {
+.styled-input,
+.styled-textarea {
     width: 100%;
     height: 100%;
     padding: 20px 20px 10px 20px;
@@ -25,6 +48,10 @@
     font-family: Arial, sans-serif;
     color: black;
     font-weight: 100;
+}
+.styled-textarea {
+    height: 150px;
+    resize: none;
 }
 .input-label {
     position: absolute;
@@ -63,22 +90,18 @@
 }
 </style>
 
-**We just need a few details:**
-
 <form action="https://formsubmit.co/7dda0715e6ff9af6994fe982d887c530" method="POST">
-    <div style="padding-top: 15px;"></div>
-    <div style="padding-top: 15px;"></div>
     <div style="display: flex;">
         <div style="flex: 60%; padding-left: 0px;">
             <div class="input-container">
                 <input type="text" id="name" name="name" class="styled-input" required>
-                <label for="name" class="input-label">Name</label>
+                <label for="name" class="input-label">First Name</label>
             </div>
         </div>
         <div style="flex: 50%; padding-left: 15px;">
             <div class="input-container">
                 <input type="text" id="company" name="company" class="styled-input" required>
-                <label for="company" class="input-label">Company</label>
+                <label for="company" class="input-label">Last Name</label>
             </div>
         </div>
     </div>
@@ -97,14 +120,23 @@
         </div>
     </div>
     <div class="input-container">
-        <input type="text" id="availability" name="availability" class="styled-input" required>
-        <label for="availability" class="input-label">Availability</label>
+        <input type="text" id="startdate" name="startdate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+        <label for="startdate" class="input-label">Start Date</label>
+    </div>
+    <div class="input-container">
+        <input type="text" id="enddate" name="enddate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+        <label for="enddate" class="input-label">End Date</label>
+    </div>
+    <div class="input-container">
+        <textarea id="impress_us" name="impress_us" class="styled-input styled-textarea" required></textarea>
+        <label for="impress_us" class="input-label">Comments</label>
     </div>
     <input type="hidden" name="_next" value="https://cleanmybuilding.co/#file-thank_you">
-    <input type="hidden" name="_subject" value="Audit Request">
+    <input type="hidden" name="_subject" value="PTO Request">
     <input type="hidden" name="_cc" value="info@crystalclearBuildingServices.com">
-    <input type="hidden" name="_autoresponse" value="Thanks for contacting us, we'll be in touch soon.">
-    <div id="button-container" style="padding-top: 40px; padding-bottom: 100px;">
+    <input type="hidden" name="_autoresponse" value="You've submitted vacation, we'll process it soon, and then your manager will have the opportunity to approve it.">
+    <div style="height: 80px;"></div> <!-- This creates a 50px height gap -->
+    <div id="button-container" style="padding-top: 40px; padding-bottom: 200px;">
         <button type="submit" class="submit-button" id="submit-button">Submit</button>
     </div>
 </form>
