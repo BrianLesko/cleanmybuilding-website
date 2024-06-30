@@ -15,6 +15,8 @@ function loadMarkdownForHash() {
   if (hash.startsWith('file-')) {
     const markdownFilePath = `/${hash.slice(5)}.md`;
     loadMarkdown(markdownFilePath);
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
   } else if (hash === '') {
     loadMarkdown('./homepage.md');
   }
