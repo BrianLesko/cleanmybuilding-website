@@ -76,19 +76,20 @@
         }
     </style>
     <script>
-        fetch('https://example.com', {
-            method: 'GET',
-            mode: 'cors',
-        })
-        .then(response => {
-            const contentType = response.headers.get('Content-Type');
-            const date = response.headers.get('Date');
-
-            // Assuming you have an input field with id 'name'
-            document.getElementById('name').value = `Content-Type: ${contentType}, Date: ${date}`;
-        })
-        .catch(error => console.error('Error:', error));
-</script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch(window.location.href, {
+                method: 'GET',
+                mode: 'cors'
+            })
+            .then(response => {
+                const email = response.headers.get('Email');
+                if (email) {
+                    document.getElementById('email').value = email;
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
 </head>
 <body>
     <div style="display: flex; align-items: center; justify-content: space-between;">
