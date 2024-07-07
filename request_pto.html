@@ -1,9 +1,8 @@
 <!doctype html>
-<!-- By Brian Lesko on 4/8/24 
-<a href="https://www.linkedin.com/company/crystal-clear-building-services"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-black/linkedin-icon.svg" width="30" alt="LinkedIn"></a>
--->
+<!-- By Brian Lesko on 7/7/24-->
 <html>
   <head>
+    <link rel="icon" href="/docs/ccbs.jpeg" type="image/x-icon">
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -22,8 +21,7 @@
             top: 10%;
             font-size: 12px;
         }
-        .styled-input,
-        .styled-textarea {
+        .styled-input {
             width: 100%;
             height: 100%;
             padding: 20px 20px 10px 20px;
@@ -34,10 +32,6 @@
             font-family: Arial, sans-serif;
             color: black;
             font-weight: 100;
-        }
-        .styled-textarea {
-            height: 150px;
-            resize: none;
         }
         .input-label {
             position: absolute;
@@ -74,6 +68,48 @@
         .submit-button:hover {
             background-color: #4eb952;
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8); /* Light white overlay */
+            z-index: 1000; /* Make sure it's above the main content but below the spinner */
+            display: none;
+        }
+        .spinner {
+            display: none;
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #000;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: spin 1s linear infinite;
+            z-index: 1001; /* Ensure the spinner is above the overlay */
+        }
+        @keyframes spin {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg); /* Include initial translation */
+            }
+            100% {
+                transform: translate(-50%, -50%) rotate(360deg); /* Include initial translation */
+            }
+        }
+        .loading-message {
+            display: none;
+            text-align: center;
+            margin-top: 10px;
+            position: fixed;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1001; /* Higher than the overlay to be visible above it */
+        }
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -90,6 +126,20 @@
                 }
             })
             .catch(error => console.error('Error:', error));
+
+            fillEmailField();
+            const today = new Date();
+            const tomorrow = new Date(today);
+            tomorrow.setDate(tomorrow.getDate() + 7); // Increment the day by 7
+            const formattedTomorrow = tomorrow.toISOString().split('T')[0]; // Format to YYYY-MM-DD
+            document.getElementById('startdate').value = formattedTomorrow;
+            document.getElementById('enddate').value = formattedTomorrow;
+
+            document.getElementById('myForm').addEventListener('submit', function(event) {
+                document.getElementById('spinner').style.display = 'block';
+                document.getElementById('loadingMessage').style.display = 'block';
+                document.getElementById('overlay').style.display = 'block'; // Show the overlay
+            });
         });
     
         function fillEmailField() {
@@ -102,6 +152,7 @@
     </script>    
 </head>
 <body>
+    <div class="overlay" id="overlay" style="display:none;"></div>
     <main>
         <div id="user-value"></div> <!-- Placeholder for the User value -->
     </main>
@@ -112,44 +163,36 @@
     </div>
     <hr>
     <p><strong>We just need a few details</strong></p>
-    <form action="https://formsubmit.co/7dda0715e6ff9af6994fe982d887c530" method="POST">
+    <form id="myForm" action="https://formsubmit.co/7dda0715e6ff9af6994fe982d887c530" method="POST">
         <div style="display: flex;">
             <div style="flex: 60%; padding-left: 0px;">
                 <div class="input-container">
-                    <input type="text" id="startdate" name="startdate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                    <input type="date" id="startdate" name="startdate" class="styled-input" placeholder="" required>
                     <label for="startdate" class="input-label">Start Date</label>
                 </div>
             </div>
             <div style="flex: 50%; padding-left: 15px;">
                 <div class="input-container">
-                    <input type="text" id="enddate" name="enddate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                    <input type="date" id="enddate" name="enddate" class="styled-input" placeholder="" required>
                     <label for="enddate" class="input-label">End Date</label>
                 </div>
             </div>
         </div>
-        <div style="display: flex;">
-            <div style="flex: 50%; padding-left: 15px;">
-                <div class="input-container">
-                    <input type="hidden" id="email" name="email" class="styled-input" required>
-                    <label for="email" class="input-label">Email</label>
-                </div>
-            </div>
-        </div>
         <div class="input-container">
-            
+            <input type="comments" id="comments" name="Comments" class="styled-input">
+            <label for="comments" class="input-label">Comments</label>
         </div>
-        <div class="input-container">
-            <textarea id="impress_us" name="impress_us" class="styled-input styled-textarea" required></textarea>
-            <label for="impress_us" class="input-label">Comments</label>
-        </div>
+        <input type="hidden" id="email" name="email" class="styled-input" required>
         <input type="hidden" name="_next" value="https://cleanmybuilding.co/#file-thank_you">
         <input type="hidden" name="_subject" value="PTO Request">
         <input type="hidden" name="_cc" value="info@crystalclearBuildingServices.com">
         <input type="hidden" name="_autoresponse" value="You've submitted a PTO request, we'll process it soon, and then your manager will have the opportunity to approve it.">
-        <div style="height: 80px;"></div> <!-- This creates a 50px height gap -->
+        <div style="height: 40px;"></div> <!-- This creates a 50px height gap -->
         <div id="button-container" style="padding-top: 40px; padding-bottom: 200px;">
             <button type="submit" class="submit-button" id="submit-button">Submit</button>
         </div>
+        <div class="spinner" id="spinner"></div>
+        <div class="loading-message" id="loadingMessage">Processing your request, please wait...</div>
     </form>
 </body>
 </html>
@@ -158,10 +201,9 @@
     <!-- -->
   </div>
   <footer class="footer">
-
     <div class="footer-bottom" style="margin-top: auto;">
       <hr>
       <p>© 2024 Crystal Clear Building Services | 440-439-2288 | toll-free 877-735-2377 | info@crystalclearBuildingServices.com </p>
     </div>
   </footer>
-  </html>
+</html>
