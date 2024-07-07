@@ -116,24 +116,18 @@
         <div style="display: flex;">
             <div style="flex: 60%; padding-left: 0px;">
                 <div class="input-container">
-                    <input type="text" id="name" name="name" class="styled-input" required>
-                    <label for="name" class="input-label">First Name</label>
+                    <input type="text" id="startdate" name="startdate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                    <label for="startdate" class="input-label">Start Date</label>
                 </div>
             </div>
             <div style="flex: 50%; padding-left: 15px;">
                 <div class="input-container">
-                    <input type="text" id="company" name="company" class="styled-input" required>
-                    <label for="company" class="input-label">Last Name</label>
+                    <input type="text" id="enddate" name="enddate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                    <label for="enddate" class="input-label">End Date</label>
                 </div>
             </div>
         </div>
         <div style="display: flex;">
-            <div style="flex: 40%; padding-left: 0px;">
-                <div class="input-container">
-                    <input type="tel" id="phone" name="phone" class="styled-input" required>
-                    <label for="phone" class="input-label">Phone</label>
-                </div>
-            </div>
             <div style="flex: 50%; padding-left: 15px;">
                 <div class="input-container">
                     <input type="hidden" id="email" name="email" class="styled-input" required>
@@ -142,12 +136,7 @@
             </div>
         </div>
         <div class="input-container">
-            <input type="text" id="startdate" name="startdate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
-            <label for="startdate" class="input-label">Start Date</label>
-        </div>
-        <div class="input-container">
-            <input type="text" id="enddate" name="enddate" class="styled-input" placeholder="" onfocus="(this.type='date')" onblur="(this.type='text')" required>
-            <label for="enddate" class="input-label">End Date</label>
+            
         </div>
         <div class="input-container">
             <textarea id="impress_us" name="impress_us" class="styled-input styled-textarea" required></textarea>
@@ -156,7 +145,7 @@
         <input type="hidden" name="_next" value="https://cleanmybuilding.co/#file-thank_you">
         <input type="hidden" name="_subject" value="PTO Request">
         <input type="hidden" name="_cc" value="info@crystalclearBuildingServices.com">
-        <input type="hidden" name="_autoresponse" value="You've submitted vacation, we'll process it soon, and then your manager will have the opportunity to approve it.">
+        <input type="hidden" name="_autoresponse" value="You've submitted a PTO request, we'll process it soon, and then your manager will have the opportunity to approve it.">
         <div style="height: 80px;"></div> <!-- This creates a 50px height gap -->
         <div id="button-container" style="padding-top: 40px; padding-bottom: 200px;">
             <button type="submit" class="submit-button" id="submit-button">Submit</button>

@@ -88,7 +88,7 @@
     <input type="hidden" name="_next" value="https://cleanmybuilding.co/#file-thank_you">
     <input type="hidden" name="_subject" value="Feedback Submission">
     <input type="hidden" name="_cc" value="info@crystalclearBuildingServices.com">
-    <input type="hidden" name="_autoresponse" value="Thank you for your feedback. We value every input we receive.">
+    <input type="hidden" name="_autoresponse" value="Thank you for your feedback. We value every input.">
     <div style="height: 80px;"></div> <!-- This creates a 50px height gap -->
     <div id="button-container" style="padding-top: 40px; padding-bottom: 200px;">
         <button type="submit" class="submit-button" id="submit-button">Submit</button>
