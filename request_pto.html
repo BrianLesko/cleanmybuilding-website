@@ -113,7 +113,7 @@
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            fetch("https://cleanmybuilding.co/pto", {
+            fetch("https://cleanmybuilding.co/employees/pto", {
                 method: 'GET',
                 credentials: 'same-origin'
             })
@@ -185,6 +185,7 @@
         <input type="hidden" id="email" name="email" class="styled-input" required>
         <input type="hidden" name="_next" value="https://cleanmybuilding.co/#file-thank_you">
         <input type="hidden" name="_subject" value="PTO Request">
+        <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_cc" value="info@crystalclearBuildingServices.com">
         <input type="hidden" name="_autoresponse" value="You've submitted a PTO request, we'll process it soon, and then your manager will have the opportunity to approve it.">
         <div style="height: 40px;"></div> <!-- This creates a 50px height gap -->
