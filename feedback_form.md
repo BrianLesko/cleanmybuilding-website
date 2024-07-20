@@ -65,7 +65,7 @@
     background-color: #4eb952;
 }
 </style>
-# Leave us Feedback
+# Leave Anonymous Feedback
 ---
 **We appreciate your input**
 
@@ -73,14 +73,6 @@
 
 <form action="https://formsubmit.co/7dda0715e6ff9af6994fe982d887c530" method="POST">
     <div style="padding-top: 15px;"></div>
-    <div class="input-container">
-        <input type="text" id="name" name="name" class="styled-input" required>
-        <label for="name" class="input-label">Name</label>
-    </div>
-    <div class="input-container">
-        <input type="email" id="email" name="email" class="styled-input" required>
-        <label for="email" class="input-label">Email</label>
-    </div>
     <div class="input-container">
         <textarea id="feedback" name="feedback" class="styled-input styled-textarea" required></textarea>
         <label for="feedback" class="input-label">Feedback</label>
