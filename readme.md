@@ -16,4 +16,4 @@ Here is a review of each coding language used to make this website:
 - CSS - stylize aspects of your HTML like colors and rounding buttons etc.
 - JS - used to turn a markdown document into html.
 
-Thanks for reading. This project was my first public, self-hosted website. I learned about deploying basic code to the web, using html, css, and javascript, the core languages used in web-development. This project also into creating more complex back end services that would not be easily possible on traditional website creators like wordpress. This site has been deployed since early 2024. 
+Thanks for reading. This project was my first public, self-hosted website. I learned about deploying basic code to the web, using html, css, and javascript, the core languages used in web-development. This project has served as a gateway for creating more complex back end services that would not be easily possible on traditional website creators like wordpress. This site has been deployed since early 2024. 
