@@ -1,28 +1,19 @@
 # Clean My Building Website
 
-Host a website that is easy to create new pages for. Keep it mostly simple and use HTML some CSS and a little javascript.
+This repository stores the html, css, and javascript that makes up the public website [cleanmybuilding.co](cleanmybuilding.co). 
 
-HTML - hypertext markup lanuage is the grandfather of websites. The entire structure is dependant on HTML
-CSS - stylize aspects of your HTML like colors and rounding buttons etc
-JS - JS is used for more hearty feature adds but creates a large amount of additional complexity
-    here we implement a little JS two add two features:
-    1. A back to top button that appears as your scroll down the page
-    2. A method for rendering markdown documents, so that new website pages can be launched more quickly
-        The current implementation uses URL hashes to determine what markdown file to render. 
-        The alternative is using query parameters
+This site has two business functions:
+- a minimal viable landing page for interested clients in janitorial services offered by Crystal Clear Building Services.
+- A public access point for web services hosted for internal and employee use via the [employees](cleanmybuilding.co/employees/) page.
 
-My first public website built from scratch. 
+This site also demonstrates the following technical abilities:
+- Self hosting a public website
+- User authentication to private services
+- html, css, and javascript
 
-This website is specifically Built for my Dad's company Crystal Clear Building Services. 
+Here is a review of each coding language used to make this website: 
+- HTML - hypertext markup lanuage is the grandfather of websites. The entire structure is dependant on HTML.
+- CSS - stylize aspects of your HTML like colors and rounding buttons etc.
+- JS - used to turn a markdown document into html.
 
-It acts as a proof of concept that a site can be quickly launched for nearly free.
-
-I intent to add two other main components to this project. 
-1. internal employee resources as an add on to this page - PTO requests implemented
-2. Simple forms that use zero JS, just HTML and CSS - Completed 
-
-## Roadmap
-
-Increase the number and polish on the existing forms, create summaries that are sent out regularly. 
-
-Create internal employee resources that are nearly fully autonomous and can be managed by CCBS employees rather than myself. 
+Thanks for reading. This project was my first public, self-hosted website. I learned about deploying basic code to the web, using html, css, and javascript, the core languages used in web-development. This project also into creating more complex back end services that would not be easily possible on traditional website creators like wordpress. This site has been deployed since early 2024. 
